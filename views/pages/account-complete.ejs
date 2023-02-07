@@ -1,0 +1,30 @@
+<% if(complete){ %>
+    <script>
+      console.log("complete");
+      window.ReactNativeWebView.postMessage("accountCreationComplete");
+      // document.addEventListener(
+      //   "paymentSuccess",
+      //   function (event) {
+      //     console.log("success", event);
+    
+      //     logMessage(event.data);
+      //   },
+      //   false
+      // );
+    </script>
+    <% } else{ %>
+    <script>
+      console.log("failed");
+      window.ReactNativeWebView.postMessage("accountCreationFailed");
+      // document.addEventListener(
+      //   "paymentFail",
+      //   function (event) {
+      //     console.log("failed", event);
+    
+      //     logMessage(event.data);
+      //   },
+      //   false
+      // );
+    </script>
+    <% } %>
+    

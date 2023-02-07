@@ -1,0 +1,2 @@
+ALTER TABLE order_arts 
+ALTER COLUMN title TYPE CITEXT;

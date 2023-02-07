@@ -1,0 +1,2 @@
+ALTER TABLE user_collections 
+ADD COLUMN is_public BOOLEAN DEFAULT FALSE;

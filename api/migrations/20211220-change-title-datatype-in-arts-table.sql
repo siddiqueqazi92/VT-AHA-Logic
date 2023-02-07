@@ -1,0 +1,3 @@
+
+ALTER TABLE arts 
+ALTER COLUMN title TYPE CITEXT;

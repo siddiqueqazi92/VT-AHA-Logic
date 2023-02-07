@@ -1,0 +1,2 @@
+ALTER TABLE events 
+ADD COLUMN "EndTime" varchar(20) DEFAULT NULL;

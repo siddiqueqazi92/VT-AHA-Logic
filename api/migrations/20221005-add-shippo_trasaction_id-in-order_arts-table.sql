@@ -1,0 +1,3 @@
+ALTER TABLE order_arts 
+ADD COLUMN shippo_rate_id  VARCHAR(100) DEFAULT NULL,
+ADD COLUMN shippo_transaction_id  VARCHAR(100) DEFAULT NULL;

@@ -1,0 +1,2 @@
+ALTER TABLE communities 
+ALTER COLUMN name TYPE CITEXT;

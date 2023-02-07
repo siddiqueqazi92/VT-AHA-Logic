@@ -1,0 +1,2 @@
+ALTER TABLE user_pinned_arts 
+ADD COLUMN is_public BOOLEAN DEFAULT FALSE;

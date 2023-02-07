@@ -1,0 +1,2 @@
+ALTER TABLE arts 
+ADD COLUMN "deletedAt" TIMESTAMP NULL;  

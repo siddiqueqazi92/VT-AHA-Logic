@@ -1,0 +1,2 @@
+ALTER TABLE users 
+ADD COLUMN wallet NUMERIC (10, 2) DEFAULT 0;

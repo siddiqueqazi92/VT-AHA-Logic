@@ -1,0 +1,2 @@
+ALTER TABLE orders 
+ADD COLUMN is_public  BOOLEAN DEFAULT TRUE;

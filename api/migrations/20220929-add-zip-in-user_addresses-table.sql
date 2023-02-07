@@ -1,0 +1,2 @@
+ALTER TABLE user_addresses 
+ADD COLUMN zip CITEXT DEFAULT NULL;

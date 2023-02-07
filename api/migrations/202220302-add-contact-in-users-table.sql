@@ -1,0 +1,3 @@
+ALTER TABLE users 
+ADD COLUMN country_code VARCHAR(10) NULL,
+ADD COLUMN contact VARCHAR(20) NULL;

@@ -1,0 +1,2 @@
+ALTER TABLE order_arts 
+ADD COLUMN tracking_url CITEXT DEFAULT NULL;

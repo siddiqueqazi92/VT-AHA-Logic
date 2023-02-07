@@ -1,0 +1,5 @@
+ALTER TABLE users 
+ADD COLUMN pending_amount NUMERIC (20, 2) DEFAULT 0,
+ADD COLUMN available_amount NUMERIC (20, 2) DEFAULT 0,
+ADD COLUMN total_amount NUMERIC (20, 2) DEFAULT 0,
+ADD COLUMN withdrawal_requested  BOOLEAN DEFAULT FALSE;

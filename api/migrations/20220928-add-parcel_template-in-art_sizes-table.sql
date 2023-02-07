@@ -1,0 +1,5 @@
+ALTER TABLE art_sizes 
+ADD COLUMN template VARCHAR ( 50 ) NULL,
+ADD COLUMN weight DECIMAL(10,4) NULL,
+ADD COLUMN mass_unit VARCHAR ( 4 ) NULL;
+

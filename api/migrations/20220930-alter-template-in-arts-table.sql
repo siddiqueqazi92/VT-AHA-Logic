@@ -1,0 +1,2 @@
+ALTER TABLE arts
+ ALTER COLUMN template TYPE TEXT;

@@ -1,0 +1,2 @@
+ALTER TABLE art_sizes
+ ALTER COLUMN template TYPE TEXT;
